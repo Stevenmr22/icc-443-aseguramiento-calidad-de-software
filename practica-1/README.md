@@ -32,9 +32,7 @@ Se implementaron las siguientes pruebas para garantizar la correcta funcionalida
 1. Abre el proyecto en IntelliJ IDEA.
 2. Navega al directorio `src/test/java`.
 3. Haz clic derecho en el paquete `model` y selecciona `Run 'All Tests in 'model''`.
-4. Alternativamente, utiliza la tarea de Gradle `test` para ejecutar todas las pruebas:
-   ```bash
-   ./gradlew test
+
 # Proyecto: Carrito de Compras en Java
 
 ## Lo que se Hizo
