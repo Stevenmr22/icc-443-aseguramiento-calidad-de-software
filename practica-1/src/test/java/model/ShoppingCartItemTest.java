@@ -8,6 +8,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ShoppingCartItemTest {
 
+    /**
+     * Verifica que el subtotal de un artículo en el carrito se calcule correctamente
+     * multiplicando el precio del producto por la cantidad.
+     */
     @Test
     void testSubTotal() {
         Product product = new Product("Milk", 50.0);

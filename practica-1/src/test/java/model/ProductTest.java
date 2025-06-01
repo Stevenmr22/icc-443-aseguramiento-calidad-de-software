@@ -7,6 +7,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ProductTest {
 
+    /**
+     * Verifica que un producto se cree correctamente con el nombre y precio especificados.
+     */
     @Test
     void testProductCreation (){
         Product product = new Product("Bread", 25.0);
@@ -14,6 +17,9 @@ class ProductTest {
         assertEquals(25.0, product.getPrice());
     }
 
+    /**
+     * Verifica que el precio de un producto se pueda actualizar correctamente.
+     */
     @Test
     void testProductPriceUpdate() {
         Product product = new Product("Bread", 25.0);
